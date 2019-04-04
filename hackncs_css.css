@@ -12,6 +12,7 @@
 	padding: 0px !important;
 }
 
+
 .nav_{
 	display: flex;
     justify-content: flex-end;
@@ -62,8 +63,9 @@ p{
 
 
 .nav_bar img{
-	height: 10px;
-	width: 10px;
+	height: 9vh;
+	width: auto;
+	margin-left: 2%;
 }
 
 .nav_bar a:visited{
@@ -112,6 +114,19 @@ p{
 .sec{
 	display: flex;
 	flex-direction: row;
+}
+
+.sec img{
+	height: 5vh;
+	width: auto;
+	margin: 3%;
+	margin-top: 0%;
+}
+
+.im{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 h2{
@@ -282,6 +297,7 @@ h1{
 
 .c{
 	width: 25%;
+
 }
 
 .d{
@@ -298,8 +314,46 @@ button:hover{--c2: #f6d365;
 
 
 }	
+.abc img{
+	height: 10vh;
+	width: auto;
+	}
+
+.flex img{
+	height: 5vh;
+	width: auto;
+	margin-left:85%;
+	}
+
+.z img{
+	height: 7vh;
+	width: auto;
+	margin: 10px !important;
+}
+
+.m{
+	display: flex;
+	flex-direction: row;
+}
 
 @media screen and (max-width: 768px) {
+  .navbar{
+  	width: 90%;
+  	padding: 3% 0% !important;
+
+  }
+
+  .nav_bar img{
+  	margin-left: 0px;
+  	height: 6vh;
+  	width: auto;
+  }
+
+.z{
+	margin-right: 24vw;
+}
+  
+
   .image{
   	height: 70vh;
   	padding: 7%;
@@ -330,6 +384,7 @@ button:hover{--c2: #f6d365;
 	flex-direction: column;
 }
  
+
 .clubs{
 	width: 80% !important;
 	margin: 5%;
@@ -383,14 +438,20 @@ button:hover{--c2: #f6d365;
 }
 
 .d{
-	padding-right: 55vw;
+	/*padding-right: 55vw;*/
+	margin-left: 16vw;
 }
 
+
+.n{
+	margin-left: 20vw;
+}
 
 .abc{
 	display: flex;
 	flex-direction: column;
 	padding:6%;
+	/*justify-content: center;*/
 	}
 
 .about{
